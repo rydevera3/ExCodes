@@ -1,4 +1,4 @@
-function [uniCorpus, tf_idfn, CosSim, m] = tfidfVec(corpus)
+function [uniCorpus, tf_idfn, CosSim, m] = tfidf(corpus)
 
 %inputs
 %   corpus: DX1 cell vector with D documents
